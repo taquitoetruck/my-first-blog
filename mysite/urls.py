@@ -18,5 +18,7 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'', include('blog.urls'))
+    url(r'', include('blog.urls')),
 ]
+
+#https://tutorial.djangogirls.org/en/template_extending/
